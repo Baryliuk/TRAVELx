@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TRAVELx</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <a href="#"><img src="img/TRAVELx.png" alt="TRAVELx-logo" /></a>
+      </div>
+      <nav class="header__nav">
+        <ul class="header-list">
+          <li class="header__item">
+            <a href="#" class="header__link">Destinations</a
+            ><a href="#" class="header__link">Activities</a
+            ><a href="#" class="header__link">About Us</a
+            ><a href="#" class="header__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="bg__menu">
+        <a href="#"><img src="img/burger.png" alt="menu-burger" /></a>
+      </div>
+    </header>
+    <main>
+      <div class="main__inf">
+        <p class="main__title" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="500">EXPLORE</p>
+        <h1 class="main__header"  data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="650">Norway</h1>
+      </div>
+      <div class="main__footer">
+        <div class="city__card-inf" data-aos="fade-right">
+          <img class="marker" src="img/map-marker.svg" alt="marker-map" />
+          <div class="inf">
+            <h5 class="city">Trondheim</h5>
+            <p class="subtitle">Plan a trip</p>
+          </div>
+        </div>
+        <div class="city__card-inf" data-aos="flip-up">
+          <img src="img/map-marker.svg" alt="marker-map" />
+          <div class="inf">
+            <h5 class="city">Trondheim</h5>
+            <p class="subtitle">Plan a trip</p>
+          </div>
+        </div>
+        <div class="city__card-inf" data-aos="fade-left">
+          <img src="img/map-marker.svg" alt="marker-map" />
+          <div class="inf">
+            <h5 class="city">Trondheim</h5>
+            <p class="subtitle">Plan a trip</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
